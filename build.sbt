@@ -79,9 +79,7 @@ libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.12.2" % "test"
 /// Compiler plugins
 
 // linter: static analysis for scala
-resolvers += "Linter Repository" at "https://hairyfotr.github.io/linteRepo/releases"
-
-addCompilerPlugin("com.foursquare.lint" %% "linter" % "0.1.8")
+addCompilerPlugin("org.psywerx.hairyfotr" %% "linter" % "0.1.12")
 
 
 /// console
